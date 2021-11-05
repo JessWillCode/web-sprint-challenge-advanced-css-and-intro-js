@@ -232,7 +232,33 @@ button:hover {
     height: 40vh;
   }
 
+  .title-container hr {
+    width: 100%;
+  }
+
   .artists-container {
     flex-flow: column wrap;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15%;
+  }
+
+  .artist div {
+    width: 100%;
+    margin: 0;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .artist .bio {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .artists-container img {
+    height: 15vh;
+    width: 90%;
+    padding-top: 6%;
+    margin-bottom: 5%;
   }
 }
